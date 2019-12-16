@@ -24,7 +24,7 @@ import (
 	"testing"
 	"time"
 
-	jaegerpb "github.com/signalfx/jaegermodel/model"
+	jaegerpb "github.com/jaegertracing/jaeger/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 

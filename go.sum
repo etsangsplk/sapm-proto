@@ -447,6 +447,8 @@ github.com/signalfx/golib/v3 v3.0.0/go.mod h1:p+krygP/cDlWvCBEgdkQp3H16rbP4NW7YQ
 github.com/signalfx/gomemcache v0.0.0-20180823214636-4f7ef64c72a9/go.mod h1:Ytb8KfCSyuwy/VILnROdgCvbQLA5ch0nkbG7lKT0BXw=
 github.com/signalfx/jaegermodel v0.0.0-20191216093502-40192cdbe98d h1:bwbI4ZlGXlUti+zHleXMv35Ohhz01hv4zK8QsFdyu4I=
 github.com/signalfx/jaegermodel v0.0.0-20191216093502-40192cdbe98d/go.mod h1:/+lEogklTHCdCA1QYcAyjr5ifSZ0fRLPfVI9jc4n9wQ=
+github.com/signalfx/jaegermodel v0.0.0-20191216114100-739a7d453026 h1:zLQcrx6NJr/dYffM1jrFWDwksMf9tooyq+JIKrB2amA=
+github.com/signalfx/jaegermodel v0.0.0-20191216114100-739a7d453026/go.mod h1:teKPxHib097qfFjuL29IeLloC1khE94cnhkZ5h/h9jQ=
 github.com/signalfx/thrift v0.0.0-20181211001559-3838fa316492/go.mod h1:Xv29nl9fxdk0hmeqcUHgAZZwvYrOhduNW+9qk4H+6K0=
 github.com/sirupsen/logrus v1.2.0/go.mod h1:LxeOpSwHxABJmUn/MG1IvRgCAasNZTLOkJPxbbu5VWo=
 github.com/sirupsen/logrus v1.4.2/go.mod h1:tLMulIdttU9McNUspp0xgXVQah82FyeX6MwdIuYE2rE=

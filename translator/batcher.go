@@ -19,7 +19,7 @@ import (
 	"fmt"
 
 	"github.com/gogo/protobuf/proto"
-	jaegerpb "github.com/signalfx/jaegermodel/model"
+	jaegerpb "github.com/jaegertracing/jaeger/model"
 )
 
 type bucketID [32]byte

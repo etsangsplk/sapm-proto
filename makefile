@@ -37,7 +37,6 @@ all: addlicense fmt impi vet lint goimports misspell staticcheck
 generate:
 	mkdir -p gen
 	docker run --rm -v $(PWD):$(PWD) -w $(PWD) znly/protoc --gofast_out=./gen/ -I./ -I./vendor/github.com/gogo/protobuf/ -I./vendor/ sapm.proto
-	sed -i 's/github.com\/jaegertracing\/jaeger\/model/github.com\/signalfx\/jaegermodel\/model/g' gen/sapm.pb.go
 
 .PHONY: test
 test:
