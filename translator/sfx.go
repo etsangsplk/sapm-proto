@@ -19,8 +19,8 @@ import (
 	"sort"
 	"time"
 
-	jaegerpb "github.com/jaegertracing/jaeger/model"
 	"github.com/opentracing/opentracing-go/ext"
+	jaegerpb "github.com/owais/jaegerpb"
 	"github.com/signalfx/golib/v3/trace"
 
 	gen "github.com/signalfx/sapm-proto/gen"

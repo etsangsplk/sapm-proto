@@ -16,7 +16,7 @@ package splunk_sapm
 import proto "github.com/golang/protobuf/proto"
 import fmt "fmt"
 import math "math"
-import jaeger_api_v2 "github.com/jaegertracing/jaeger/model"
+import jaeger_api_v2 "github.com/owais/jaegerpb"
 
 import io "io"
 

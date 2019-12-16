@@ -19,7 +19,7 @@ import (
 	"testing"
 	"time"
 
-	jaegerpb "github.com/jaegertracing/jaeger/model"
+	jaegerpb "github.com/owais/jaegerpb"
 	"github.com/signalfx/golib/v3/pointer"
 	"github.com/signalfx/golib/v3/trace"
 	"github.com/stretchr/testify/assert"

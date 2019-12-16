@@ -19,7 +19,7 @@ import (
 	"fmt"
 
 	"github.com/gogo/protobuf/proto"
-	jaegerpb "github.com/jaegertracing/jaeger/model"
+	jaegerpb "github.com/owais/jaegerpb"
 )
 
 type bucketID [32]byte
@@ -46,6 +46,7 @@ func (b *spanBatcher) add(span *jaegerpb.Span) {
 	if batch.Process != nil {
 		span.Process = nil
 	}
+
 	batch.Spans = append(batch.Spans, span)
 }
 

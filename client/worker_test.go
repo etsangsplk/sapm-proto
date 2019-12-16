@@ -25,7 +25,7 @@ import (
 	"testing"
 
 	"github.com/gogo/protobuf/proto"
-	jaegerpb "github.com/jaegertracing/jaeger/model"
+	jaegerpb "github.com/owais/jaegerpb"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
