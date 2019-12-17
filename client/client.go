@@ -22,7 +22,7 @@ import (
 	"sync"
 	"time"
 
-	jaegerpb "github.com/jaegertracing/jaeger/model"
+	jaegerpb "github.com/signalfx/jaegermodel/model"
 	"go.opencensus.io/stats/view"
 )
 

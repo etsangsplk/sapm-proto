@@ -27,8 +27,8 @@ import (
 	"time"
 
 	"github.com/golang/protobuf/proto"
-	jaegerpb "github.com/jaegertracing/jaeger/model"
 	ocTrancelator "github.com/open-telemetry/opentelemetry-collector/translator/trace"
+	jaegerpb "github.com/signalfx/jaegermodel/model"
 	"go.opencensus.io/trace"
 
 	sapmpb "github.com/signalfx/sapm-proto/gen"

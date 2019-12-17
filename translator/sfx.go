@@ -19,7 +19,7 @@ import (
 	"sort"
 	"time"
 
-	jaegerpb "github.com/jaegertracing/jaeger/model"
+	jaegerpb "github.com/signalfx/jaegermodel/model"
 	"github.com/opentracing/opentracing-go/ext"
 	"github.com/signalfx/golib/v3/trace"
 

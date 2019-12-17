@@ -10,7 +10,7 @@ github.com/gogo/protobuf/types
 # github.com/golang/protobuf v1.3.2
 github.com/golang/protobuf/proto
 # github.com/jaegertracing/jaeger v1.15.1
-github.com/jaegertracing/jaeger/model
+github.com/signalfx/jaegermodel/model
 # github.com/opentracing/opentracing-go v1.1.0
 github.com/opentracing/opentracing-go
 github.com/opentracing/opentracing-go/ext

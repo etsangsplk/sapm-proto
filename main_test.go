@@ -19,7 +19,7 @@ import (
 	"testing"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/jaegertracing/jaeger/model"
+	"github.com/signalfx/jaegermodel/model"
 
 	splunk_sapm "github.com/signalfx/sapm-proto/gen"
 )
